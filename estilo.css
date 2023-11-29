@@ -1,0 +1,151 @@
+body {
+    background-image: url(demon.jpg);
+    font-family:'Courier New', Courier, monospace;
+    margin: 20px;
+    background-color: #f8f8f8;
+    background-size: cover;
+    background-repeat: initial;
+    background-attachment: fixed;
+}
+
+header, footer {
+    
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    background-color: #ffffff6d;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.page-nav {
+    position: relative;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 40px;
+    color: aliceblue;
+    background: linear-gradient(to bottom right, #277ea3c0, #9d0207a3);
+    
+}
+
+pre {
+    background-color: #f8f8f878;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+code {
+    color: #c7254e;
+}
+
+footer {
+    margin-top: 20px;
+}
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section li {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+section li strong {
+    color: rgba(218, 74, 66, 0.687);
+    
+}
+b{
+    font-size: 20px;
+    color: #000000;
+}
+h2{
+    color: #000000;
+}
+
+.subs{
+    color: rgba(218, 74, 66, 0.687)
+}
+.container {
+    position: relative;
+    color: #ffffff;
+  }
+.container img {
+    width: 200px;
+    height: 100px;
+}
+.containerjava {
+    height: 90px;
+    position: relative;
+    color:#ffffff;
+
+}
+
+#details summary{
+
+    height: 8em;
+}
+
+#python-container summary{
+    display: flex;
+
+}
+
+#java-container summary{
+    display: flex;
+    justify-content: end;
+}
+  
+  .texto-oculto {
+    display: none;
+    position: absolute;;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  .but{
+    text-align: center;
+    
+}
+  .button {
+        background: #277ea386;
+        border: 1px solid #ffffff94;
+        border-radius: 6px;
+        box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+        box-sizing: border-box;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 16px;
+        min-height: 40px;
+        outline: 0;
+        padding: 12px 14px;
+        text-rendering: geometricprecision;
+        text-transform: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        vertical-align: middle;
+        
+       }
+       
+       .button:hover,
+       .button :active {
+         background-color: initial;
+         background-position: 0 0;
+         color: #df9797;
+       }
+       
+       .button:active {
+         opacity: .5;
+       }
+  
